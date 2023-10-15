@@ -1,12 +1,12 @@
 import React from 'react';
-import { useSearchParams } from 'react-router-dom';
+// import { useSearchParams } from 'react-router-dom';
 
 const Movies = () => {
-  const [searchParams, setSearchParams] = useSearchParams();
+  //   const [searchParams, setSearchParams] = useSearchParams();
 
   const handleFormSubmit = event => {
     event.preventDefault();
-    const searchedMovies = event.currentTarget.elements.searchMovieId.value;
+    // const searchedMovies = event.currentTarget.elements.searchMovieId.value;
   };
   return (
     <div>
