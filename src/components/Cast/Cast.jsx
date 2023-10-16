@@ -1,7 +1,7 @@
 import { fetchMovieCast } from '../../api/fetch-movie-credits';
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import myImage from '../../images/logo192.png';
+import myImage from '../../images/logo25.png';
 import css from './Cast.module.css';
 
 function Cast() {
@@ -38,7 +38,7 @@ function Cast() {
         {cast.map(({ id, name, profile_path, character }) => (
           <li className={css.item} key={id}>
             {profile_path === null ? (
-              <img src={myImage} alt={name} width="92" height="92" />
+              <img src={myImage} alt={name} width="130" height="130" />
             ) : (
               <img
                 src={`https://image.tmdb.org/t/p/w92${profile_path}`}

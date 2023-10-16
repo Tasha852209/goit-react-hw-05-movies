@@ -2,7 +2,7 @@ import React, { useState, useEffect, Suspense } from 'react';
 import { useParams, useLocation, Outlet, Link } from 'react-router-dom';
 import { fetchMovieDetails } from '../api/fetch-movie-details';
 
-import myImage from '../images/logo192.png';
+import myImage from '../images/logo25.png';
 
 import {
   Container,
